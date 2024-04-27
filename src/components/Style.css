@@ -1,0 +1,85 @@
+.editTitle{
+    font-weight: 500;
+    float: left;
+}
+
+.ListTitle{
+    font-weight: 700;
+    background-color: #f2f2f2 !important;
+    border: none;
+}
+
+.textgrey{
+    color: #747474;
+    font-size: small;
+    float: left;
+}
+.addBtn{
+    margin-top: 32px;
+    margin-left: -40px;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    background-color: #0078C8;
+}
+.editbtn{
+    background-color: #0078C8;
+    color: white;
+}
+.editbtn:hover{
+    background-color: #083f6a !important ;
+    color: white !important;
+}
+
+.addBtn:hover{
+    background-color: #083f6a !important;
+}
+
+.inputbox{  
+    border-top-right-radius:0 ;
+    border-bottom-right-radius:0 ;
+    background-color: #f2f2f2 !important;
+    border: #dad6d6;
+}
+.itemInput{
+    background-color: #f2f2f2 !important;
+    border: #dad6d6;
+}
+.deleteBtn{
+    color: #d73838;
+    font-weight: bold;
+}
+.deleteBtn:hover{
+    color: #850000 !important;
+    
+}
+
+.arrow{
+    flex-wrap: wrap;
+}
+
+.clrbtn{
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: solid rgb(216, 209, 209);
+    color: rgb(95, 94, 94);
+    font-weight: bold;
+    font-size: 15px;
+    border: #747474;
+
+}
+
+.qtybtn{
+    background-color: rgba(255,255, 255, 0);
+    border: none;
+}
+.qtybtndown{
+    margin-top: -15px;
+
+}
+.arrbtns{
+    margin-top: -30px;
+    display: grid;
+    
+}
