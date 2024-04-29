@@ -1,6 +1,9 @@
 import "./App.css";
-import { Lists, MyNav, Home } from "./components";
+import { MyNav, Home } from "./components";
 import { Routes, Route } from "react-router-dom";
+import EditListContainer from "./redux/EditListContainer";
+import HomeContainer from "./redux/HomeContainer";
+
 
 function App() {
   return (
@@ -8,8 +11,8 @@ function App() {
       <MyNav expand="sm" />
       <div className="App">
         <Routes>
-          <Route path="*" element={<Home />} />
-          <Route path="/lists" element={<Lists />} />
+          <Route path="*" element={<HomeContainer />} />
+          <Route path="/lists" element={<EditListContainer />} />
         </Routes>
       </div>
     </div>
